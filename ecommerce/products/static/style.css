@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2f608; /* Vibrant yellow-green */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff; /* Blue */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/* Magic Text Logo */
+.magic-text {
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    color: #ff6a00;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Navbar Buttons */
+.button-container {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.admin-btn {
+    background-color: #ff7300; /* Orange */
+    color: white;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* Product Section */
+.container {
+    margin-top: 30px;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Table Header */
+th {
+    background-color: #007bff; /* Blue */
+    color: white;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+/* Table Cells */
+td {
+    padding: 12px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Coloring */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light Gray */
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #d4edda; /* Light Green */
+    transition: 0.3s;
+}
